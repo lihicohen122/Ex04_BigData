@@ -13,7 +13,6 @@ producer = KafkaProducer(
 )
 
 def run_producer():
-    # Path as specified in your training PDF
     file_path = 'input/Electric_Vehicle_Population_Data.csv'
     print(f"Streaming data to {KAFKA_TOPIC}...")
 
